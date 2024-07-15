@@ -4,7 +4,6 @@ import { Box, Card, CardContent, CardMedia, Typography } from '@mui/material';
 import Link from 'next/link';
 import pagesNavigation from 'src/navigation/vertical/pages';
 import themeConfig from 'src/configs/themeConfig';
-import { Height } from '@mui/icons-material';
 
 const Home = () => {
 
