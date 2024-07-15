@@ -17,7 +17,7 @@ import ThaiThuySanForm from './form/NguoiThaiThuySanForm'
 const NguonThaiThuySan = () => {
   //Init columnTable
 
-  // const [mapCenter, setMapCenter] = useState([15.012172, 108.676488])
+  // const [mapCenter, setMapCenter] = useState([21.358822,105.1078751])
   // const [mapZoom, setMapZoom] = useState(9)
   // const [showLabel, setShowLabel] = useState(false)
   const columnsTable: TableColumn[] = [

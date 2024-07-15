@@ -17,7 +17,7 @@ const MapDoanSong = dynamic(() => import('src/@core/components/map/mapdoansong')
 // eslint-disable-next-line react-hooks/rules-of-hooks
 const PhanDoanSongTiepNhanNuocThai = () => {
   const [data, setData] = useState([])
-  const [mapCenter, setMapCenter] = useState([15.012172, 108.676488]);
+  const [mapCenter, setMapCenter] = useState([21.358822,105.1078751]);
   const [mapZoom, setMapZoom] = useState(9);
   const [selectedRiver, setSelectedRiver] = useState<any>(null);
 
@@ -156,7 +156,7 @@ const PhanDoanSongTiepNhanNuocThai = () => {
 
   useEffect(() => {
     if (!selectedRiver) {
-        setMapCenter([15.012172, 108.676488]); // Mặc định trung tâm
+        setMapCenter([21.358822,105.1078751]); // Mặc định trung tâm
         setMapZoom(9); // Mặc định zoom
     }
 }, [selectedRiver]);

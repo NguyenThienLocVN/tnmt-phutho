@@ -23,7 +23,7 @@ const Map = dynamic(() => import('src/@core/components/map'), { ssr: false })
 
 // eslint-disable-next-line react-hooks/rules-of-hooks
 const SurfaceConstruction = () => {
-  const [mapCenter, setMapCenter] = useState([15.012172, 108.676488])
+  const [mapCenter, setMapCenter] = useState([21.358822,105.1078751])
   const [mapZoom, setMapZoom] = useState(9)
   const [postSuccess, setPostSuccess] = useState(false)
 

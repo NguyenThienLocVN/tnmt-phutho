@@ -25,7 +25,7 @@ const LuongMuaHienTaiPages = () => {
     setValue(newValue)
   }
 
-  const [mapCenter] = useState([15.012172, 108.676488])
+  const [mapCenter] = useState([21.358822,105.1078751])
   const [mapZoom] = useState(9)
   const [selected, setSelected] = React.useState(true)
 

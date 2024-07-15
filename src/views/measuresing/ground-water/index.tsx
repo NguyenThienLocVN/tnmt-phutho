@@ -19,7 +19,7 @@ const Map = dynamic(() => import("src/@core/components/map"), { ssr: false });
 
 const GroundwaterMeasuresing = () => {
   const router = useRouter();
-  const [mapCenter, setMapCenter] = useState([15.012172, 108.676488]);
+  const [mapCenter, setMapCenter] = useState([21.358822,105.1078751]);
   const [mapZoom, setMapZoom] = useState(9);
   const [showLabel, setShowLabel] = useState(false)
   const [resData, setResData] = useState<any[]>([]);

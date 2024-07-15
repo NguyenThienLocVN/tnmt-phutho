@@ -14,7 +14,7 @@ const KhaNangTiepNhanNuocThaiSong = () => {
   const [data, setData] = useState([]);
   console.log(data);
   
-  const [mapCenter, setMapCenter] = useState([15.012172, 108.676488]);
+  const [mapCenter, setMapCenter] = useState([21.358822,105.1078751]);
   const [mapZoom, setMapZoom] = useState(9);
   const [selectedRiver, setSelectedRiver] = useState<any>(null);
   const [loading, setLoading] = useState(false);
@@ -108,7 +108,7 @@ const KhaNangTiepNhanNuocThaiSong = () => {
 
   useEffect(() => {
     if (!selectedRiver) {
-      setMapCenter([15.012172, 108.676488]);
+      setMapCenter([21.358822,105.1078751]);
       setMapZoom(9);
     }
   }, [selectedRiver]);

@@ -17,7 +17,7 @@ type ThemeConfig = {
 
 const themeConfig: ThemeConfig = {
   // ** Layout Configs
-  templateName: 'Sở TNMT Quảng Ngãi' /* App Name */,
+  templateName: 'Sở TNMT Phú Thọ' /* App Name */,
   mode: 'light' /* light | dark */,
   contentWidth: 'full' /* full | boxed */,
 

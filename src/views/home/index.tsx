@@ -4,6 +4,7 @@ import { Box, Card, CardContent, CardMedia, Typography } from '@mui/material';
 import Link from 'next/link';
 import pagesNavigation from 'src/navigation/vertical/pages';
 import themeConfig from 'src/configs/themeConfig';
+import { Height } from '@mui/icons-material';
 
 const Home = () => {
 
@@ -35,6 +36,7 @@ const Home = () => {
             </Grid>
             <Grid item md={12}>
                 <Grid container spacing={5} justifyContent={'center'}>
+                    <Grid item md={1}></Grid>
                     <Grid item md={3}>
                         <Grid container spacing={2}>
                             {
@@ -67,19 +69,19 @@ const Home = () => {
                             }
                         </Grid>
                     </Grid>
-                    <Grid item md={7}>
-                        <img src="/images/bandohanhchinh.png" alt="" width={'100%'} />
+                    <Grid item md={4} sx={{ height: 'calc(100vh - 300px)'}}>
+                        <img src="/images/bandohanhchinh.png" alt="" style={{height: '100%'}} />
                     </Grid>
                 </Grid>
             </Grid>
             <Grid item md={12} alignContent={'center'} >
                 <Box sx={{ width: '100%', textAlign: 'center' }}>
-                    <Typography variant='caption' fontWeight={700} color='#ff3a3f'>Bản quyền ©2024 thuộc Sở Tài nguyên và Môi trường Quảng Ngãi | </Typography>
-                    <Typography variant='caption'>Cổng thông tin điện tử Quảng Ngãi</Typography>
+                    <Typography variant='caption' fontWeight={700} color='#ff3a3f'>Bản quyền ©2024 thuộc Sở Tài nguyên và Môi trường Phú Thọ</Typography>
+                    <Typography variant='caption'>Cổng thông tin điện tử Phú Thọ</Typography>
                     <br />
-                    <Typography variant='caption'>Địa chỉ: Số 163 Hùng Vương - TP Quảng Ngãi - Tỉnh Quảng Ngãi</Typography>
+                    <Typography variant='caption'>Địa chỉ: Đường Nguyễn Tất Thành - Phường Tân Dân - Thành phố Việt Trì - Tỉnh Phú Thọ.</Typography>
                     <br />
-                    <Typography variant='caption'>Điện thoại: 0255.3714507; Fax: 0255.3822870; Email: stnmt@quangngai.gov.vn</Typography>
+                    <Typography variant='caption'>Điện thoại: 02103.847.911; Fax: 02103.847.911; Email: sotnmt@phutho.gov.vn</Typography>
                 </Box>
             </Grid>
         </Grid >

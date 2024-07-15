@@ -18,7 +18,7 @@ const Map = dynamic(() => import('src/@core/components/map'), { ssr: false })
 const TaiLuongONhiem = () => {
   //Init columnTable
 
-  // const [mapCenter, setMapCenter] = useState([15.012172, 108.676488])
+  // const [mapCenter, setMapCenter] = useState([21.358822,105.1078751])
   // const [mapZoom, setMapZoom] = useState(9)
   // const [showLabel, setShowLabel] = useState(false)
   function roundToTwoDecimalPlaces(num: number): number {
@@ -333,7 +333,7 @@ const TaiLuongONhiem = () => {
     }
   ]
 
-  const [mapCenter] = useState([15.012172, 108.676488])
+  const [mapCenter] = useState([21.358822,105.1078751])
   const [mapZoom] = useState(9)
   const [data, setData] = useState([])
   console.log(data)

@@ -20,7 +20,7 @@ const Map = dynamic(() => import('src/@core/components/map'), { ssr: false })
 const AoHoDetails = () => {
   //Init columnTable
 
-  // const [mapCenter, setMapCenter] = useState([15.012172, 108.676488])
+  // const [mapCenter, setMapCenter] = useState([21.358822,105.1078751])
   // const [mapZoom, setMapZoom] = useState(9)
   // const [showLabel, setShowLabel] = useState(false)
   const columnsTable: TableColumn[] = [
@@ -247,7 +247,7 @@ const AoHoDetails = () => {
     { id: 'actions', label: 'Thao tác', rowspan: 2, align: 'center', pinned: 'right' }
   ]
 
-  const [mapCenter] = useState([15.012172, 108.676488])
+  const [mapCenter] = useState([21.358822,105.1078751])
   const [mapZoom] = useState(9)
   const [data, setData] = useState([])
   console.log(data)

@@ -8,7 +8,7 @@ const Map = dynamic(() => import("src/@core/components/map"), { ssr: false });
 
 const Construction = () => {
 
-    const [mapCenter,] = useState([15.012172, 108.676488]);
+    const [mapCenter,] = useState([21.358822,105.1078751]);
     const [mapZoom,] = useState(9);
     const [coodinate, setCoodinate] = useState({ x: 0, y: 0 });
 
